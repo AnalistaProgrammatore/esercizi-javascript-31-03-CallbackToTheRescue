@@ -1,6 +1,6 @@
 /**
 * Scrivere qui il codice della class Clock partendo dalla funzione qui di seguito definita
-
+*/
 function Clock({ template }) {
   let timer
   
