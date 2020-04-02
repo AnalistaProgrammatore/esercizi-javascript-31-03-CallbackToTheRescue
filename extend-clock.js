@@ -36,7 +36,6 @@ class Clock {
 
 }
 
-
 class ExtendedClock extends Clock {
   constructor(props, { precision = 1000 } = {}) {
     super(props)
@@ -53,5 +52,5 @@ class ExtendedClock extends Clock {
   }
 }
 
-let clock = new Clock({ template: 'h:m:s' })
+let clock = new ExtendedClock({ template: 'h:m:s' })
 clock.start()
